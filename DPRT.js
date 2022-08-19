@@ -181,7 +181,6 @@ export function endDPRT() {
   //canvas2d.hidden = true;
   canvas2d.parentElement.removeChild(canvas2d);
   canvas.hidden = false;
-  rootDiv.hidden = false;
 }
 
 /*
