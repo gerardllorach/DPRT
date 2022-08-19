@@ -327,9 +327,9 @@ const update = () =>{
 			let replyEl = divEl.querySelector("#replyingTOT");
 			let speechRecEl = divEl.querySelector("#speechRecResults");
 
-			listenEl.innerText = listeningTOT;
+			listenEl.innerText = listeningTOT + "%";
 			listenEl.innerText = listenEl.innerText.replaceAll(",", "%, ");
-			replyEl.innerText = replyingTOT;
+			replyEl.innerText = replyingTOT + "%";
 			replyEl.innerText = replyEl.innerText.replaceAll(",", "%, ");
 			speechRecEl.innerText = recognitionResults;
 			speechRecEl.innerText = speechRecEl.innerText.replaceAll(",", "\n");
